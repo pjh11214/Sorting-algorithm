@@ -14,20 +14,3 @@ data = [64, 34, 25, 12, 22, 11, 90]
 print(bubble_sort(data))
 
 
-
-
-
-def px(a):
-    for i in range(len(a)):
-        if len(a) <= 1:
-            return a
-        if i==len(a)-1:
-            break
-        elif a[i]>a[i+1]:
-            b=a[i]
-            a[i]=a[i+1]
-            a[i+1]=b
-    return px(a)
-
-
-a=[1,68,10]
